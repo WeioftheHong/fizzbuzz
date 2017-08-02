@@ -20,6 +20,6 @@ def fizzBuzzPrint(n):
 
 print("'Hello, git!'")
 
-n = int(input("Enter a final fizzbuzz number"))
+n = int(input("Enter a final fizzbuzz number "))
 
 fizzBuzzIterative(1, n + 1)
