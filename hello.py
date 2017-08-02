@@ -1,7 +1,6 @@
 # hello.py
 # says 'Hello, git!'
 # also does fizzBuzz function
-# does fizzbuzz until 100 only
 
 def fizzBuzzIterative(start, end):
     for i in range(start, end):
@@ -21,6 +20,6 @@ def fizzBuzzPrint(n):
 
 print("'Hello, git!'")
 
-n = 100
+n = int(input("Enter a final fizzbuzz number"))
 
 fizzBuzzIterative(1, n + 1)
